@@ -1,4 +1,5 @@
 import React from 'react'
+import './assets/scss/styles.scss'
 import { Header, MainContent, NavigagionSidebar } from './components'
 
 const App = () => {
