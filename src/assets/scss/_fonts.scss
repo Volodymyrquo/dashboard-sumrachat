@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?e3ox9k');
-  src: url('fonts/icomoon.eot?e3ox9k#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?e3ox9k') format('truetype'),
-    url('fonts/icomoon.woff?e3ox9k') format('woff'),
-    url('fonts/icomoon.svg?e3ox9k#icomoon') format('svg');
+  src: url('fonts/icomoon.eot?srsbja');
+  src: url('fonts/icomoon.eot?srsbja#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?srsbja') format('truetype'),
+    url('fonts/icomoon.woff?srsbja') format('woff'),
+    url('fonts/icomoon.svg?srsbja#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,65 +26,79 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Group .path1:before {
+.icon-video-camera .path1:before {
   content: '\e900';
-
-  opacity: 0.5;
+  color: rgb(193, 199, 208);
 }
-.icon-Group .path2:before {
+.icon-video-camera .path2:before {
   content: '\e901';
   margin-left: -1em;
+  color: rgb(193, 199, 208);
+  opacity: 0.3;
 }
-.icon-Half-start .path1:before {
+.icon-Call:before {
+  content: '\e903';
+  color: #c1c7d0;
+}
+.icon-Group .path1:before {
   content: '\e902';
 
   opacity: 0.5;
 }
+.icon-Group .path2:before {
+  content: '\e906';
+  margin-left: -1em;
+}
+.icon-Half-start .path1:before {
+  content: '\e904';
+
+  opacity: 0.5;
+}
 .icon-Half-start .path2:before {
-  content: '\e903';
+  content: '\e907';
   margin-left: -1em;
 }
 .icon-Divits .path1:before {
-  content: '\e904';
+  content: '\e905';
 
   opacity: 0.6;
 }
 .icon-Divits .path2:before {
-  content: '\e905';
-  margin-left: -1em;
-
-  opacity: 0.6;
-}
-.icon-Divits .path3:before {
-  content: '\e906';
-  margin-left: -1em;
-
-  opacity: 0.6;
-}
-.icon-Divits .path4:before {
-  content: '\e907';
-  margin-left: -1em;
-
-  opacity: 0.6;
-}
-.icon-Divits .path5:before {
   content: '\e908';
   margin-left: -1em;
 
   opacity: 0.6;
 }
-.icon-Divits .path6:before {
+.icon-Divits .path3:before {
   content: '\e909';
   margin-left: -1em;
 
   opacity: 0.6;
 }
-.icon-Divits .path7:before {
+.icon-Divits .path4:before {
   content: '\e90a';
+  margin-left: -1em;
+
+  opacity: 0.6;
+}
+.icon-Divits .path5:before {
+  content: '\e90b';
+  margin-left: -1em;
+
+  opacity: 0.6;
+}
+.icon-Divits .path6:before {
+  content: '\e91a';
+  margin-left: -1em;
+
+  opacity: 0.6;
+}
+.icon-Divits .path7:before {
+  content: '\e91b';
   margin-left: -1em;
 }
 .icon-Divits .path8:before {
-  content: '\e90b';
+  content: '\e91c';
   margin-left: -1em;
 
   opacity: 0.6;
