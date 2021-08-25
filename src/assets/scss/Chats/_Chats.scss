@@ -1,0 +1,11 @@
+@import './ChatsNavbar';
+@import './ChatsContact';
+@import '../variables';
+
+.sch-chats {
+  position: absolute;
+  display: flex;
+  left: 260px;
+  top: 98px;
+  padding: 10px 93px 10px 30px;
+}

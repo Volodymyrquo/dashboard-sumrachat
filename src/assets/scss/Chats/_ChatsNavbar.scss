@@ -1,0 +1,45 @@
+.sch-chats-navbar {
+  position: relative;
+  width: 354px;
+  left: 0;
+  top: 0;
+  padding: 80px 19px 14px 18px;
+  /* Text/Icons & Fonts */
+  background: #ffffff;
+  img {
+    position: absolute;
+    display: inline-block;
+    top: 32px;
+    right: 19px;
+    width: 28px;
+    height: 28px;
+  }
+  &-contacts {
+    position: absolute;
+    width: 74px;
+    height: 10px;
+    left: 21px;
+    top: 41px;
+
+    text-transform: uppercase;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+    /* or 242% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    /* Text/Text 4 */
+
+    color: #b0b7c3;
+  }
+  &-contacts_block {
+    position: static;
+    width: 317px;
+  }
+}

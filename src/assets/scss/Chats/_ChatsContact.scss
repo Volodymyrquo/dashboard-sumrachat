@@ -1,0 +1,22 @@
+.sch-chats_contact {
+  width: 317px;
+  height: 81px;
+  margin-bottom: 12px;
+
+  /* Transparent/Transparent 1 */
+  background-color: blueviolet;
+  color: white;
+  /* background: #f4f8ff; */
+
+  border-radius: 12px;
+  &-avatar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: url(../../images/avatar-18.png);
+    border-radius: 200px;
+  }
+}

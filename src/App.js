@@ -1,13 +1,13 @@
 import React from 'react'
 import './assets/scss/styles.scss'
-import { Header, MainContent, NavigagionSidebar } from './components'
+import { Header, MainContent, NavigagionSidebar, Chats } from './components'
 
 const App = () => {
   return (
     <div>
       <Header />
       <NavigagionSidebar />
-      <MainContent />
+      <Chats />
     </div>
   )
 }
