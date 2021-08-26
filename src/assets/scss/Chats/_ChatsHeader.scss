@@ -4,9 +4,10 @@
   width: calc(100vw - 395px - 265px);
   left: 384px;
   top: 10px;
+  z-index: 1;
 
   /* Background/BG 4 */
-
+  background: #ffffff;
   border-radius: 0px 15px 0px 0px;
 
   &-avatar {

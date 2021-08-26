@@ -1,0 +1,151 @@
+$messages-block-width: calc(100vw - 260px - 354px - 30px - 4px - 230px);
+
+.sch-chats-messages {
+  position: relative;
+  top: 100px;
+  left: 127px;
+  color: #b0b7c3;
+  width: $messages-block-width;
+  &-block {
+    display: flex;
+    flex-direction: column;
+    &-time {
+      margin-top: 6px;
+      margin-left: 26px;
+    }
+  }
+  &-contact {
+    display: flex;
+    flex-direction: row;
+    &-avatar {
+      width: 47px;
+      height: 47px;
+      margin-left: 18px;
+      margin-top: 17px;
+      display: inline-block;
+      background: url('../../images/avatar-18.png');
+      border-radius: 50%;
+    }
+    &-message {
+      margin-top: 20px;
+      margin-left: 16px;
+      padding: 7px 16px;
+
+      left: 63px;
+      top: 0px;
+
+      /* Background/BG 3 */
+
+      background: #fafbfc;
+      border-radius: 12px;
+      span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 29px;
+        /* identical to box height, or 223% */
+
+        display: flex;
+        align-items: center;
+
+        /* Text/Text 3 */
+
+        color: #8a94a6;
+      }
+    }
+  }
+  &-user {
+    display: flex;
+    flex-direction: row;
+    margin-left: calc(47px + 16px + 40px);
+    align-items: flex-start;
+
+    &-avatar {
+      width: 47px;
+      height: 47px;
+      margin-left: 18px;
+      margin-top: 17px;
+      display: inline-block;
+      background: url('../../images/Avatars.png');
+      border-radius: 50%;
+    }
+    &-message {
+      margin-top: 20px;
+
+      padding: 12px 18px;
+
+      /* Primary/Primary 1 */
+
+      background: #377dff;
+      border-radius: 12px;
+      span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 21px;
+        /* or 162% */
+
+        display: flex;
+        align-items: center;
+
+        color: #ffffff;
+      }
+    }
+  }
+  &-input {
+    position: fixed;
+    bottom: 62px;
+    left: calc(395px + 265px);
+    width: calc(100vw - 495px - 265px);
+    height: 81px;
+
+    height: 81px;
+
+    /* Background/BG 3 */
+
+    background: #fafbfc;
+    border-radius: 15px;
+    &-avatar {
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 41px;
+      height: 41px;
+    }
+    &-clip {
+      position: absolute;
+      right: 20px;
+      top: 30.5px;
+      width: 20px;
+      height: 20px;
+    }
+    &-smile {
+      position: absolute;
+      right: 66px;
+      top: 30.5px;
+      width: 20px;
+      height: 20px;
+    }
+
+    input {
+      position: absolute;
+      width: calc(100vw - 495px - 365px);
+      height: 11px;
+      left: 75px;
+      top: 35px;
+      background: inherit;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 29px;
+      /* or 207% */
+
+      display: flex;
+      align-items: center;
+
+      color: #b0b7c3;
+    }
+  }
+}
